@@ -14,7 +14,7 @@ while(0<HP){
   li.document.getElementById('while').appendChild(li);
 }
 
-var include_tax =fanction(price){
+var include_tax =function(price){
  return Math.floor(price + 0.08*price); 
 }
   
